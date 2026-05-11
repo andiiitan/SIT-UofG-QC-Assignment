@@ -1,13 +1,3 @@
-# BB84 Quantum Key Distribution Simulation
-
-This repository contains a Python-based simulation of the BB84 quantum cryptography protocol using IBM's Qiskit framework. It explores how quantum mechanics can be leveraged to establish a secure, shared cryptographic key between two parties, and demonstrates the physical impossibility of undetectable eavesdropping on a quantum channel.
-
-## Repository Structure
-
-* **`BB84-Plain.ipynb`**: Simulates the ideal execution of the BB84 protocol over a secure quantum channel. It demonstrates state preparation, transmission, measurement, and the final key sifting process to establish a matching secret key between Alice and Bob.
-* **`BB84-Attacker.ipynb`**: Introduces an active eavesdropper ("Eve") utilizing an Intercept-and-Resend attack. It proves how the No-Cloning Theorem forces Eve to collapse the quantum states, ultimately allowing Alice and Bob to detect her presence.
-  * *Bonus*: This notebook also includes a secondary demonstration of an advanced **Entanglement (CNOT) Attack**.
- 
 ## Assignment Task Implementation
 
 This project was done to directly fulfill the specific task requirements given:
